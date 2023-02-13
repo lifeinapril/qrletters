@@ -1,0 +1,32 @@
+{
+    "name":"QRLetters",
+    "reserved_ip":"http://139.59.206.80",
+    "slogan":"For your personal heart felt letters",
+    "contacts":{
+      "instagram":"deendevelopers",
+      "twitter":"deendevelopers",
+      "facebook":"deendevelopers"
+    },
+  "about":[
+    {   
+        "title":"Eternal Memories: Preserve Your Love Letters in QR Code Forever",
+        "body":"Preserve your love letters in a unique and lasting way with a digital letter in QR code format. Keep your memories safe and accessible, and share them with your loved ones for generations to come."
+    },
+    {   
+        "title":"Say it with a QR: A Digital Love Letter to Cherish Forever",
+        "body":"Say goodbye to traditional paper letters and hello to a new way of preserving your love. A digital letter in QR code format offers a secure and convenient way to store your heartfelt words for your loved ones to cherish forever."
+    },
+    {
+        "title":"A Letter to Love: A Unique Way to Share Your Heart with a QR Code",
+        "body":"Capture the essence of your love with a digital letter in QR code format. This new and innovative way of sharing your feelings not only offers a creative twist to the traditional love letter, but also ensures that your memories are protected and easily accessible.’."
+    },
+    {
+        "title":"Love, QR'd: A Lasting Memory of Your Letters to Loved Ones",
+        "body":"A digital letter in QR code format is the perfect way to share your love story with those closest to you. With its easy accessibility and secure storage, you can be confident that your love will be cherished for years to come."
+    },
+    {
+        "title":"QR Your Love: A Digital Keepsake for Your Dearest",
+        "body":"Say it with a QR code and make your love last a lifetime. A digital letter in QR code format offers a unique and modern way to share your heart and preserve your memories with your loved ones."
+    }
+]
+}
