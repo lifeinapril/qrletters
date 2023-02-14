@@ -14,8 +14,6 @@ return (
       <br/><br/>
       <br/><br/>
       <br/><br/>
-      <br/><br/>
-      <br/><br/>
         <b style={{fontSize:50,fontFamily:`${props.font || 'tahoma'}`,transition:"all 1s",maxWidth:"600px"}}>
              <p>{props.title} </p>
         </b>
