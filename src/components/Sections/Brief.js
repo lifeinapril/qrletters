@@ -25,7 +25,7 @@ class Brief extends React.Component {
 
 return (
    
-<div className={this.props.dark ? 'brief-dark':'brief-light'}>
+<div className={'brief '+(this.props.dark ? 'brief-dark':'brief-light')}>
     <Container fluid style={this.props.full ? bg:null}>
         <Row className={this.props.align}>
             <Col  xs={12} sm={12} md={{span:6,order: this.props.set }} className={ this.props.dark ? 'brief-dark brief-round padding':'brief-light brief-round  padding'}>

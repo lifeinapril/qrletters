@@ -37,6 +37,10 @@ return (
           <Route path='/:id' element={<Message/>}/>
       </Routes>
   </Router>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
   <Foot contacts={app.contacts} bg="bg-dark" name={app.name}/>
   </>
 }
