@@ -1,8 +1,6 @@
 import React from 'react';
 import "../../css/Splash.css";
 import demo from "../../Config";
-import {TransitionGroup,CSSTransition} from "react-transition-group";
-
 class Splash extends React.Component {
     constructor(props) {
         super();
@@ -12,10 +10,7 @@ class Splash extends React.Component {
   render() {
         return (
             <>
-            
-  <TransitionGroup> 
-            <CSSTransition classNames="splash" appear={true} in={true} timeout={600}>
- 
+       
 
             <div  className={this.props.dark ? 'bg-dark':'bg-light'}>
             <div className="d-center align-items-center justify-content-center text-center min-vh-100">
@@ -38,9 +33,6 @@ class Splash extends React.Component {
 
                     </div>
                 </div>
-            </CSSTransition>
-          
-  </TransitionGroup> 
            </>
         );
     }

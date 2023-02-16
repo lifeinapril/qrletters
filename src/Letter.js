@@ -9,6 +9,7 @@ import app from "./Config";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './css/Splash.css';
+import { BrowserRouter } from 'react-router-dom';
 import Code from './pages/Code';
 import Message from './pages/Message';
 import Secure from './pages/Secure';
@@ -29,14 +30,14 @@ return (
           <Splash/>
        </> :
   <>
-  <Router>
+  <BrowserRouter basename="/qrletters">
       <Routes>
           <Route path='/' element={<Home name={app.name} icon={app.icon}/>}/>
           <Route path='/code/:id' element={<Code/>}/>
           <Route path='/secure/:id' element={<Secure/>}/>
           <Route path='/:id' element={<Message/>}/>
       </Routes>
-  </Router>
+  </BrowserRouter>
   <br/>
   <br/>
   <br/>
