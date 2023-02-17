@@ -1,14 +1,8 @@
 
 .brief{
-    min-height: 300px !important;
+    min-height: 90vh !important;
     background-size: cover !important;
     background-position: center !important;
-    float: left !important;
-}
-.sec{
-    max-width: 380px !important;
-    margin: auto !important;
-    border-radius:20px !important;
 }
 .brief-round{
     border-radius:20px !important;
