@@ -2,6 +2,9 @@ import React from 'react';
 import {createRoot} from 'react-dom/client';
 import Letter from './Letter';
 import reportWebVitals from './reportWebVitals';
+import ReactGA from 'react-ga';
+ReactGA.initialize("G-LW3WXDY2N5");
+
 const root = createRoot(document.getElementById('root'));
 root.render(
       <React.StrictMode>
