@@ -83,7 +83,7 @@ return (
                         className="d-inline-block align-top"
                         />
                           <h6>   Write a secret message and store it in a qrcode</h6>
-                          </div>
+                </div>
 
                 <Form onSubmit={e => {sendLetter(e)}}>
                       
